@@ -16,4 +16,11 @@ public class ViewHotel {
     public ViewHotel() {
         scanner = new Scanner(System.in);
     }
+    public int Shownemu() {
+        System.out.println("Welcome to THE HOTEL MANAGER");
+        System.out.println("1: Thêm Hotel Mới");
+        System.out.println("2: Kiểm tra Hotel đã ra");
+   
+
+    }
 }
